@@ -1,3 +1,9 @@
 /ICIPinkWindows/.vs
 /ICIPinkWindows/ICIPinkWindows/bin
 /ICIPinkWindows/ICIPinkWindows/obj
+/RubricaTelefonica/.vs
+
+/RubricaTelefonica/RubricaTelefonica/*.user
+/RubricaTelefonica/RubricaTelefonica/bin
+/RubricaTelefonica/RubricaTelefonica/obj
+/RubricaTelefonica/packages

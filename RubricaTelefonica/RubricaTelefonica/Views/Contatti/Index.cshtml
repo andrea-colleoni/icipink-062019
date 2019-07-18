@@ -1,0 +1,75 @@
+﻿@model IEnumerable<RubricaTelefonica.Models.contatto>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>I miei contatti</h2>
+
+<p>
+    @Html.ActionLink("Nuovo contatto", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Cognome
+        </th>
+        <th>
+            Nome
+        </th>
+        <th>
+            Telefono
+        </th>
+        <th>
+            E-mail
+        </th>
+        <th>
+            Indirizzo
+        </th>
+        <th>
+            Data di nascita
+        </th>
+        <th>
+            Preferito
+        </th>
+        <th>
+            Categoria
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.cognome)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.nome)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.telefono)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.indirizzo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.data_nascita)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.preferito)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.categoria.nome)
+    </td>
+    <td>
+        <a href="@Url.Action("Edit", "Contatti", new { id=item.id })" class="btn btn-primary">Modifica</a>
+        <a href="@Url.Action("Details", "Contatti", new { id=item.id })" class="btn btn-primary">Dettagli</a>
+        <a href="@Url.Action("Delete", "Contatti", new { id=item.id })" class="btn btn-primary">Elimina</a>
+    </td>
+</tr>
+}
+
+</table>
