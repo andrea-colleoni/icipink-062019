@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubricaTelefonica", "RubricaTelefonica\RubricaTelefonica.csproj", "{12F38A0E-0E71-40E9-BAE2-7D3A709F3847}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubricaTelefonica", "RubricaTelefonica\RubricaTelefonica.csproj", "{6BA6411A-FC65-42E4-9183-17C818E7C8CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12F38A0E-0E71-40E9-BAE2-7D3A709F3847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12F38A0E-0E71-40E9-BAE2-7D3A709F3847}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12F38A0E-0E71-40E9-BAE2-7D3A709F3847}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12F38A0E-0E71-40E9-BAE2-7D3A709F3847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA6411A-FC65-42E4-9183-17C818E7C8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA6411A-FC65-42E4-9183-17C818E7C8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA6411A-FC65-42E4-9183-17C818E7C8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA6411A-FC65-42E4-9183-17C818E7C8CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DD0AF540-E19F-43CB-B244-75AB17582817}
+		SolutionGuid = {4D8614BB-60D8-4EC8-BD80-8616D2CAEE4F}
 	EndGlobalSection
 EndGlobal
